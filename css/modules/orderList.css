@@ -1,0 +1,60 @@
+.order-list-wrapper table {
+  width: 100%;  
+}
+
+.order-list-wrapper table thead tr {
+  border-bottom: 2px solid #333333;
+}
+
+.order-list-wrapper table tbody tr {
+  border-bottom: 1px solid #333333;
+}
+
+.order-list-wrapper table tbody tr:last-child {
+  border: none
+}
+
+.order-list-wrapper table tbody td,
+.order-list-wrapper table thead th {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.order-list-wrapper table .image {
+  width: 148px;
+}
+
+.order-list-wrapper table tbody tr.total-line td[colspan="5"] {
+  padding: 0;
+}
+
+.order-list-wrapper table .total-price,
+.order-list-wrapper table .unit-price,
+.order-list-wrapper table .quantity {
+  width: 13%;
+}
+
+.order-list-wrapper table .total-price {
+  text-align: right;
+}
+
+.order-list-wrapper table .unit-price {
+  text-align: right;
+}
+
+.order-list-wrapper table .quantity {
+  text-align: center;
+}
+
+.order-list-wrapper table .total-row {
+  border: none;
+}
+
+.order-list-wrapper table .total-row th {
+  padding-left: 500px;
+  vertical-align: middle;
+}
+
+.order-list-wrapper table .total-row .value {
+  text-align: right;
+}

@@ -1,0 +1,42 @@
+/*
+ * This CSS holds rules for both "address-finder" and "address-finder-popup" modules.
+ * They reside at different locations in the markup but they are part of the same module.   
+ */
+
+.no-js #ui_addr-srch-btn {
+  display: none;
+}
+
+.js .address-finder-popup .addr-list .select {
+  width: 400px;
+}
+
+.js .address-finder-popup {
+  margin: 15px;
+}
+
+.address-finder-popup div.input-text label,
+.address-finder-popup div.input-select label,
+.address-finder-popup div.input-textarea label,
+.address-finder-popup div.input-readonly div.label {
+  width: 220px;
+}
+
+.address-finder-popup .addr-list {
+  display: none;
+}
+
+.address-finder-popup .addr-list input[type=button]{
+  float: right;
+}
+
+.address-finder-popup div.error {
+  border: 1px solid #f00;
+  display: none;
+  margin: 10px;
+  padding: 10px;
+  width: 352px;
+}
+.address-finder-popup #ui_select-addr{
+ width: 400px;
+}

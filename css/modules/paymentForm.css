@@ -1,0 +1,273 @@
+.payment-form .select,
+.payment-popup .select{
+	background:url(../../images/xrep.png) repeat-x 0 -150px;
+	border:1px solid #A7A9AC;
+	float:left;
+	font-size:0.911em;
+	height:28px;
+	line-height:28px;
+	overflow:hidden;
+	padding-left:9px;
+	position:relative;
+	width:159px;
+}
+.payment-popup .select{
+	width:207px;
+}
+.payment-form .choose-card .select{
+	width:258px;
+}
+.payment-form .start-date .select,
+.payment-form .end-date .select{
+	margin:0 20px 0 0;
+	width:59px;
+}
+.payment-form .start-date .year .select,
+.payment-form .end-date .year .select{
+	width:79px;
+}
+.payment-form .select:before,
+.payment-popup  .select:before,
+.lt-ie8 .payment-form .select .shim,
+.lt-ie8 .payment-popup  .select .shim{
+	background:url(../../images/norep.png) no-repeat -145px -50px;
+    content:"";
+	height:28px;
+    position:absolute;
+    right:0;
+    top:0;
+    width:50px;
+}
+.payment-form .select:hover,
+.payment-popup  .select:hover,
+.payment-form .focus .select,
+.payment-popup .focus .select{
+	background-position:0 -200px;
+}
+.payment-form .select:hover:before,
+.payment-popup  .select:hover:before,
+.lt-ie8 .payment-form .select:hover .shim,
+.lt-ie8 .payment-popup .select:hover .shim,
+.payment-form .focus .select:before,
+.payment-popup .focus .select:before,
+.lt-ie8 .payment-form .focus .select .shim,
+.lt-ie8 .payment-popup .focus .select .shim{
+	background-position:-195px -50px;
+}
+.js .payment-form select,
+.js .payment-popup select{
+	background:transparent;
+	border:none;
+	color:#292929;
+	font-size:1em;
+	height:28px;
+	left:0;
+	margin:0;
+	padding:2px 0 0;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+.payment-form .input.checkbox{
+	background: url(../../images/norep.png) -450px 0 no-repeat;
+	float: left;
+    height: 20px;
+	margin:0;
+	width: 20px;
+}
+.payment-form .input.checkbox:hover,
+.payment-form .input.checkbox.focus{
+	background-position:-50px -50px;
+}
+.payment-form .input.checkbox.checked{
+	background-position:0 -50px;
+}
+.payment-form .input.checkbox.checked:hover,
+.payment-form .input.checkbox.checked.focus{
+	background-position:-100px -50px;
+}
+.payment-form .input.checkbox input{
+	float:left;
+	height: 16px;
+	margin:0;
+	padding:0;
+	width:16px;
+}
+.js .payment-form .input.checkbox input,
+.js .payment-form .input.radio input,
+.js .payment-form select,
+.js .payment-popup select{
+	opacity:0;
+}
+.lt-ie8 .payment-form select,
+.lt-ie8 .payment-form input[type=checkbox],
+.lt-ie8 .payment-form input[type=radio],
+.lt-ie8 .payment-popup select{
+	filter: alpha(opacity=0);
+}
+.lt-ie9 .payment-form select,
+.lt-ie9 .payment-form input[type=checkbox],
+.lt-ie9 .payment-form input[type=radio],
+.lt-ie9 .payment-popup select{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.js .payment-popup .addr-list .select2 select{
+	font-size:0.96em;
+	height:auto;
+	opacity:1;
+	position:relative;
+}
+.lt-ie8 .payment-popup .addr-list .select2 select{
+	filter: alpha(opacity=100);
+}
+.lt-ie9 .payment-popup .addr-list .select2 select{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.payment-popup #ui_select-addr{
+	margin:-1px -1px -5px;
+	padding-top:6px;
+	width:530px;
+}
+.payment-popup .addr-list select option{
+	margin-bottom:1px;
+	padding:4px 0 4px 10px;
+}
+div.input-text .input.text{
+	background:url(../../images/xrep.png) repeat-x 0 -570px;
+	border:0;
+	clear:right;
+	float:left;
+	height:28px;
+	margin:0;
+	padding:1px 0;
+	position:relative;
+	width:338px;
+}
+.payment-popup div.input-text .input.text{
+	width:209px;
+}
+.payment-form  div.input-text.small-input .input.text{
+	width:48px;
+}
+.payment-popup  div.input-text.small-input .input.text{
+	width:77px;
+}
+div.input-text .input.text:before,
+div.input-text .input.text:after,
+.lt-ie8 div.input-text .input.text .before,
+.lt-ie8 div.input-text .input.text .after {
+	border:solid #a7a9ac;
+	content:"";
+	height:28px;
+	position:absolute;
+	top:0;
+	width:5px;
+}
+div.input-text .input.text:before,
+.lt-ie8 div.input-text .input.text .before {
+	background:url(../../images/norep.png) no-repeat -250px -550px;
+	border-width:1px 1px 1px 0;
+	right:-6px;
+}
+div.input-text .input.text:after,
+.lt-ie8 div.input-text .input.text .after {
+	background:url(../../images/norep.png) no-repeat -300px -550px;
+	border-width:1px 0 1px 1px;
+	left:-6px;
+}
+div.input-text .input.text input,
+.payment-popup div.input-text .input.text input {
+	background:none;
+	border:0;
+	color:#2d2d2d;
+	float:left;
+	font-size:0.875em;
+	height:16px;
+	line-height:1.143em;
+	margin:0;
+	outline:none;
+	padding:6px 0;
+	width:338px;
+}
+.payment-popup div.input-text .input.text input{
+	width:209px;
+}
+.payment-form  div.input-text.small-input .input.text input{
+	width:48px;
+}
+.payment-popup  div.input-text.small-input .input.text input{
+	width:77px;
+}
+.payment-form div.input-text label,
+.payment-form div.input-select label,
+.payment-form div.input-textarea label,
+.payment-form div.input-readonly div.label {
+	font:0.911em/1.143em Arial, Helvetica, sans-serif;
+	margin:8px 16px 0 0;
+	width:144px;
+}
+.payment-form div.input-text label{margin-right:22px;}
+.payment-form div.input-checkbox-save label{
+	float:left;
+	font:0.846em/1.231em Arial, Helvetica, sans-serif;
+}
+.input.radio{
+    float:left;
+	height:20px;
+	margin:0 22px 0 0;
+	width:20px;
+}
+.input.radio{
+	background:url(../../images/norep.png) -250px 0 no-repeat;
+}
+.input.radio:hover,
+.input.radio.focus{
+	background-position:-350px 0;
+}
+.input.radio.checked{
+	background-position:-300px 0;
+}
+.input.radio.checked:hover,
+.input.radio.checked.focus{
+	background-position:-400px 0;
+}
+.choose-card div.input-radio-select .input.radio{
+	margin-top:5px;
+}
+.input.radio input{
+	float:left;
+	height:20px;
+    margin:0;
+	padding:0;
+    width:20px;
+}
+.payment-form div.input-radio label{
+	float:left;
+	font:0.911em/1.143em Arial, Helvetica, sans-serif;
+	padding:2px 0 0 0;
+}
+.payment-form div.input-radio-select label{
+	display:block;
+	font:0.911em/1.143em Arial, Helvetica, sans-serif;
+	margin:0 0 16px;
+}
+div.input-text .input.text.invalid:after,
+.lt-ie8 div.input-text .input.text.invalid .after,
+div.input-text .input.text.incorrect:after,
+.lt-ie8 div.input-text .input.text.incorrect .after{
+	background:#f00;
+}
+div.input-text .input.text.invalid:before,
+.lt-ie8 div.input-text .input.text.invalid .before,
+div.input-text .input.text.incorrect:before,
+.lt-ie8 div.input-text .input.text.incorrect .before{
+	background-position:-350px -550px;
+}
+div.input-text .input.text.invalid,
+div.input-text .input.text.incorrect{
+	background-position:0 -610px;
+}
+div.input-text .input.text.notification:after,
+.lt-ie8 div.input-text .input.text.notification .after{
+	background-position:-150px 0;
+}

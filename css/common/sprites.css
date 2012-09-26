@@ -1,0 +1,17 @@
+.sprite-norep {
+  background-image: url("../../images/icon-sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.icon-available {
+  background-position: -12px -313px;
+  height: 15px;
+  width: 15px;
+}
+
+.icon-unavailable {
+  background-position: -12px -275px;
+  height: 15px;
+  width: 15px;
+}

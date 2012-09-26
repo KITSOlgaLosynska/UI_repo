@@ -1,0 +1,206 @@
+/* --------------------- GLOBAL RESESTS  --------------------- */
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+input {
+  font-family: Arial, sans-serif;
+  border: none;
+  font-size: 100%;
+}
+input[type=submit] {
+ cursor:pointer;
+}
+label {
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  color: #383838;
+}
+
+body a {
+  color: #414042;
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+hr {
+  border: 1px solid #a7a9ac;
+  width: 100%;
+  float: left;
+  position: relative;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.cf:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.ie7 .cf {
+  display: block;
+}
+
+.ie7 .cf {
+  display: inline-block;
+}
+
+.accessibility {
+  position: absolute;
+  left: -9999px;
+}
+
+/* --------------------- ACCESSIBILITY --------------------- */
+.access, .header ul.trade-list li, .findus, .footer li {
+  line-height: 0.1em;
+  font-size: 0.1em;
+  text-indent: -9999em;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+/* --------------------- FONTS--------------------- */
+h1, h2, h3, h4 {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 0 10px;
+}
+
+/* --------------------- WRAPS --------------------- */
+.wrap-main,
+.wrap-header {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.wrap-main,
+.wrap-header {
+  display: block;
+  font-size: .96em;
+}
+
+/* --------------------- GRID --------------------- */
+.g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11, .g12 {
+  float: left;
+  margin: 0 10px;
+}
+.g1 {
+  width: 60px;
+}
+.g2 {
+  width: 140px;
+}
+.g3 {
+  width: 220px;
+}
+.g4 {
+  width: 300px;
+}
+.g5 {
+  width: 380px;
+}
+.g6 {
+  width: 460px;
+}
+.g7 {
+  width: 540px;
+}
+.g8 {
+  width: 620px;
+}
+.g9 {
+  width: 700px;
+}
+.g10 {
+  width: 780px;
+}
+.g11 {
+  width: 860px;
+}
+.g12 {
+	width: 940px;
+	margin:0 auto;
+	float:none;
+}
+
+.f {
+  margin-left: 0;
+}
+
+.l {
+  margin-right: 0;
+}
+
+.b1 {
+  margin-right: 9px;
+}
+/*---------------------- Genedic Icon Classes -----------*/
+.icon-middle{
+	background: transparent url(../../images/icon-sprite-grid.png) no-repeat scroll;
+	display:block;
+	height:30px;
+	width:30px;
+	float:left;
+}
+.icon-small{
+	background: transparent url(../../images/icon-sprite-grid.png) no-repeat scroll;
+	display:block;
+	height:17px;
+	width:17px;
+	float:left;
+}
+/*---------------------- Misc classes ------------------*/
+
+.breadcrumb {
+  height: 35px;
+  margin-top: 11px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,7 @@
+.sub-navigation {
+  width: 700px;
+}
+
+.sub-navigation li {
+  float left;
+}

@@ -1,0 +1,87 @@
+footer{
+	background:#000 url(../../images/footer-bg.gif) repeat-x;
+	border-top:solid 10px #000;
+	color:#fff;
+	padding-top:20px;
+}
+footer.small-footer{
+	background:#fff;
+	border-top:solid 6px #2f2f2f;
+	color:#333;
+	display:block;
+	float:none;
+	margin:0 auto;
+	padding-top:0;
+}
+footer a{color:#fff;}
+footer.small-footer a{color:#000;}
+footer .footer-box{
+	overflow:hidden;
+	padding-bottom:17px;
+}
+footer .links-box{
+	float:left;
+	width:160px;
+}
+footer .links-box.last-box{width:139px;}
+footer h3{
+	font-size:1.33em;
+	line-height:1em;
+	margin-bottom:14px;
+}
+footer  .links-box ul{font-family:Arial, Helvetica, sans-serif;}
+footer  .links-box li{margin-bottom:15px;}
+footer  .links-box span.ico-trade{
+	background-position:0 -518px;
+	display:inline-block;
+	height:12px;
+	overflow:hidden;
+	text-indent:-9999px;
+	vertical-align:top;
+	width:12px;
+}
+footer  a.partner-link{
+	background:url(../../images/ico-findus.gif) no-repeat;
+	float:right;
+	height:25px;
+	overflow:hidden;
+	text-indent:-9999px;
+	width:64px;
+}
+footer  .box-trade{
+	float:right;
+	margin-right:-4px;
+	overflow:hidden;
+	padding-top:8px;
+}
+footer  .box-trade li{
+	background:url(../../images/norep.png) no-repeat -488px -518px;
+	float:left;
+	margin:0 13px 0 -13px;
+	padding:0 10px 0 13px;
+}
+footer  .box-trade span{
+	float:left;
+	height:16px;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+footer  .box-trade span.brands{
+	background-position:-91px -514px;
+	width:99px;
+}
+footer  .box-trade span.prices{
+	background-position:-213px -514px;
+	width:91px;
+}
+footer  .box-trade span.only{
+	background-position:-345px -514px;
+	width:80px;
+}
+footer p{
+	font:bold 0.75em/1em Areal, Helvetica, sans-serif;
+	padding-top:12px;
+}
+footer.small-footer p{
+	padding:19px 0 15px;
+}

@@ -1,0 +1,7 @@
+.personal-details-genbuilder-list .toggle{
+	margin:10px;
+}
+.personal-details-genbuilder-list .toggle .toggleable label{
+	display:block;
+	margin-left:4px;
+}

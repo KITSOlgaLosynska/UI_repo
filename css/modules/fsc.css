@@ -1,0 +1,29 @@
+.fsc {
+  border-bottom: 1px solid #bebebe;
+  padding: 20px 0;
+}
+
+.fsc img {
+  float: left;
+  margin-left: 9px;
+}
+
+.fsc h2 {
+  margin-left: 77px;
+}
+
+.fsc span {
+  float: left;
+}
+
+.fsc span.coc-title {
+  margin-left: 9px;
+  margin-top: 3px;
+}
+
+.fsc span.coc {
+  font-weight: bold;
+  margin-left: 6px;
+  margin-top: 3px;
+  text-decoration: underline;
+}

@@ -1,0 +1,6 @@
+.registration-form div.input-text label,
+.registration-form div.input-select label,
+.registration-form div.input-textarea label,
+.registration-form div.input-readonly div.label {
+  width: 220px;
+}

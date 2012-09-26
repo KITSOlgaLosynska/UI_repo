@@ -1,0 +1,30 @@
+.category-list li {
+  float: left;
+  margin-bottom: 20px;
+  min-height: 180px;
+  position: relative;
+  width: 25%;
+}
+
+.category-list li a {
+  bottom: 0;
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.category-list li h3 {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+
+.category-list li img {
+  background: none repeat scroll 0 0 #ccc;
+  cursor: pointer;
+  height: 135px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 135px;
+}

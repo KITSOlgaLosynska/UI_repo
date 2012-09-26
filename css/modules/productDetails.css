@@ -1,0 +1,13 @@
+.wrap-product-media {
+  border-right: 1px solid #c2c2c2;
+  margin-bottom: -9999px;
+  padding-bottom: 9999px;
+}
+
+.g12 {
+  overflow: hidden;
+}
+
+.g12:first-child {
+  margin-bottom: 10px;
+}

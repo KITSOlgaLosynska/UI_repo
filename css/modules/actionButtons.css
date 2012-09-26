@@ -1,0 +1,101 @@
+.button-holder .input.submit{
+	background:#111111;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.21, #3E3E3F), color-stop(0.61, #111111));
+	background:-webkit-linear-gradient(top, #3E3E3F 21%, #111111 61%);
+	background:-moz-linear-gradient(top, #3E3E3F 21%, #111111 61%);
+	background:-ms-linear-gradient(top, #3E3E3F 21%, #111111 61%);
+	background:-o-linear-gradient(top, #3E3E3F 21%, #111111 61%);
+	background:linear-gradient(top, #3E3E3F 21%, #111111 61%);
+	border:1px #ffffff solid;
+	border-radius:8px;	
+	-webkit-box-shadow:0 3px 3px #A9A9A9; 
+	-moz-box-shadow:0 3px 3px #A9A9A9;
+	-ms-box-shadow:0 3px 3px #A9A9A9;
+	box-shadow:0 3px 3px #A9A9A9;
+	float:right;
+	position:relative;
+	zoom:1;
+}
+.lt-ie10 .button-holder .input.submit{
+	background:url(../../images/buttons-for-ie.png) no-repeat 0 -900px;
+	border:0;
+	box-shadow:none;
+	height:58px;
+	width:209px;
+}
+.button-holder .input.submit:before,
+.lt-ie8 .button-holder .input.submit .before{
+	background: url(../../images/norep.png) no-repeat -50px -150px;
+    content:"";
+    display:block;
+    height:15px;
+    position:absolute;
+    right:9px;
+    top:18px;
+    width:10px;
+}
+.lt-ie10 .button-holder .input.submit:before,
+.lt-ie8 .button-holder .input.submit .before{
+	right:17px;
+	top:19px;
+}
+.button-holder .input input[type="submit"]{
+	background:none;
+	color:#FFF200;
+    float:left;
+	font:bold 1.171em/1.6em Helvetica, Arial, sans-serif;
+	height:48px;
+	padding:11px 34px 13px 15px;
+	width:198px;
+}
+.lt-ie10 .button-holder .input input[type="submit"]{
+	height:58px;
+	padding:8px 34px 16px 10px;
+	width:209px;
+}
+.back-button a{
+	background:#7b7b7b;
+	background:-webkit-gradient(linear, left top, left bottom, from(#919191), to(#7b7b7b));
+	background:-webkit-linear-gradient(#919191, #7b7b7b);
+	background:-moz-linear-gradient(top, #919191, #7b7b7b);
+	background:-ms-linear-gradient(#919191, #7b7b7b);
+	background:-o-linear-gradient(#919191, #7b7b7b);
+	background:linear-gradient(#919191, #7b7b7b);
+	border:1px solid #fff;
+	border-radius: 5px;
+	-webkit-box-shadow:1px 1px 2px #A9A9A9; 
+	-moz-box-shadow: 1px 1px 2px #A9A9A9; 
+	box-shadow:1px 1px 2px #A9A9A9;
+	color:#fff;
+	float:left;
+	font:bold 0.976em/1.867em Helvetica, Arial, sans-serif;
+	padding:0 11px 0 34px;
+	position:relative;
+	white-space:nowrap;
+	zoom:1;
+}
+.lt-ie10 .back-button a{
+	background:url(../../images/buttons-for-ie.png) no-repeat 0 -250px;
+	border:0;
+	box-shadow:none;
+	height:34px;
+	line-height:2em;
+	padding:0 18px 0 34px;
+	width:112px;
+}
+.back-button a:hover{
+	background:#939598;
+	text-decoration:none;
+}
+.lt-ie10 .back-button a:hover{background:url(../../images/buttons-for-ie.png) no-repeat 0 -250px;}
+.checkout-order-summary .back-button a:before,
+.lt-ie8 .checkout-order-summary .back-button a .before{
+	background: url(../../images/norep.png) no-repeat -400px -50px;
+    content:"";
+    display:block;
+    height:23px;
+    left:9px;
+    position:absolute;
+    top:7px;
+    width:48px;
+}

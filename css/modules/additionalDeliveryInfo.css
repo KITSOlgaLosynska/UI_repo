@@ -1,0 +1,22 @@
+.additional-delivery-info textarea {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.additional-delivery-info .ref-number input {
+  width: 450px;
+}
+.additional-delivery-info label{
+	display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 26px;
+}
+.additional-delivery-info span{
+	line-height:22px;
+}
+.additional-delivery-info span.counter{
+	text-align:right;
+	margin-bottom:20px;
+	display:block;
+}

@@ -1,0 +1,117 @@
+.progress-bar {
+  font-weight: bold;
+  margin:0 0 20px 0;
+}
+
+.progress-bar ul li{
+  float:left;
+  background:#383838;
+  margin-right:10px;
+  height:20px;
+  color:#ffffff;
+  padding:20px;
+  text-align:center;
+}
+
+.progress-bar ul li:hover{
+  color:#000000;
+  background:#aeaeae;
+}
+
+.progress-bar ul li.current{
+  background:#ababab;
+}
+
+.progress-bar ul li a{
+  color:#ffffff;
+}
+
+.progress-bar ul {
+  width: 881px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.progress-bar ul li a,
+.progress-bar ul li span {
+  background: url(../../images/tick-1.png) no-repeat right -3px;
+  padding-right: 37px;
+}
+
+.progress-bar ul li.completed-1,
+.progress-bar ul li.completed-2,
+.progress-bar ul li.completed-3,
+.progress-bar ul li.current-1,
+.progress-bar ul li.current-2,
+.progress-bar ul li.current-3,
+.progress-bar ul li.todo-1,
+.progress-bar ul li.todo-2 {
+  background: url(../../images/horizontal-sprite.png) no-repeat;
+}
+
+.progress-bar ul li.completed-1 {
+  color: #58595b;
+  min-width: 287px;
+  padding-left: 16px;
+  background-position: -1370px 0px;
+  z-index: 2;
+}
+
+.progress-bar ul li.completed-2 {
+  color: #58595b;
+  min-width: 310px;
+  padding-left: 21px;
+  margin: 0 0 0 -26px;
+  background-position: -1341px 0px;
+  z-index: 1;
+}
+
+.progress-bar ul li.completed-3 {
+  color: #58595b;
+  min-width: 281px;
+  padding-left: 16px;
+  background-position: -5009px 0px;
+  z-index: 2;
+}
+
+.progress-bar ul li.current-1 {
+  min-width: 312px;
+  padding-left: 21px;
+  margin: 0 0 0 -26px;
+  background-position: -671px 0px;
+  z-index: 1;
+}
+
+.progress-bar ul li.current-2 {
+  min-width: 258px;
+  padding-left: 47px;
+  margin: 0 0 0 -26px;
+  background-position: -2352px 0px;
+  z-index: 0;
+}
+
+.progress-bar ul li.current-3 {
+  min-width: 250px;
+  margin: 0 5px 0 0;
+  padding-left: 16px;
+  background-position: -2352px 0px;
+  z-index: 2;
+}
+
+.progress-bar ul li.todo-1 {
+  color: #fff;
+  min-width: 258px;
+  margin-left: -31px;
+  padding-left: 46px;
+  background-position: -3021px 0;
+  z-index: 0;
+}
+
+.progress-bar ul li.todo-2 {
+  color: #fff;
+  min-width: 316px;
+  padding-left: 20px;
+  background-position: -2001px 0px;
+  z-index: 1;
+}

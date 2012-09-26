@@ -1,0 +1,84 @@
+/*
+ * This module also holds css for the change address popup as it is part of this module.
+ * When popup handler is ready to use module for popup contents, we can factor it out to a separate module.
+ * This is used in payment-details.css as well 
+ */
+
+.delivery-address-form table {
+  margin-bottom: 20px;
+}
+
+.delivery-address-form .th-ref-nick {
+  width: 150px;
+}
+
+.delivery-address-form .th-addresss {
+  width: 250px;
+}
+
+.delivery-address-form .th-contact {
+  width: 150px;
+}
+
+.delivery-address-form .th-edit {
+  width: 80px;
+}
+
+/* For editing feature, uncomment height rule */
+.delivery-address-form .scrollable {
+  /*height: 140px;*/
+  overflow: auto;
+}
+
+.delivery-address-form .add-new-address {
+  display: none;
+}
+
+.js .delivery-address-form .add-new-address {
+  display: inline-block;
+    margin-bottom: 20px;
+}
+
+.delivery-address-form table.delivery-address {
+  display: none;
+}
+
+.delivery-address-form table thead th {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.js .change-address-popup {
+  margin: 15px;
+}
+
+.change-address-popup div.input-text label,
+.change-address-popup div.input-select label,
+.change-address-popup div.input-textarea label,
+.change-address-popup div.input-readonly div.label {
+  width: 220px;
+}
+
+.change-address-popup div.input-text input {
+  width: 250px;
+}
+
+.change-address-popup .suppl label {
+  font-size: 0.8em;
+}
+
+.change-address-popup .close-window {
+  float: right;
+}
+
+.change-address-popup .input-radio {
+  clear: none;
+  float: left;
+  margin-right: 20px;
+  width: 60px;
+}
+
+.change-address-popup span.label {
+  width: 400px;
+}

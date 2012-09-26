@@ -1,0 +1,10 @@
+
+.product-list-price span {
+	display:block;
+	text-align:left;
+	margin-left:50px;
+	font-size:0.7em
+}
+.product-list-price span.main-price strong{
+	font-size:1.6em
+}

@@ -1,0 +1,25 @@
+form.personal-details fieldset{
+	 padding-top: 56px;
+}
+form.personal-details div.input.required label span {
+    color: #E8202A;
+    position: absolute;
+}
+
+form.personal-details div.input-text label, 
+form.personal-details div.input-select label, 
+form.personal-details div.input-textarea label, 
+form.personal-details div.input-readonly div.label {
+    float: left;
+    line-height: 31px;
+    margin: 1px 17px 0 0;
+    text-align: right;
+    width: 173px;
+}
+form.personal-details div.input-checkbox {
+    margin-top: 1.3em;
+    padding-left: 187px;
+}
+form.personal-details .select{
+	line-height:33px;
+}

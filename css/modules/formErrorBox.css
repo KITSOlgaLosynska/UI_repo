@@ -1,0 +1,18 @@
+.form-error-box {
+  border: 1px solid #f00;
+  margin: 0 0 10px;
+  padding: 15px;
+}
+
+.form-error-box a {
+  color: #f00;
+}
+.form-error-box table{
+	border:1px solid #000; width:100%;
+}
+.form-error-box table tr{
+	border-bottom:1px solid #666;
+	}
+.form-error-box table tr th, .form-error-box table tr td{
+	border-right:1px solid #666;padding:5px;
+	}

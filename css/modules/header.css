@@ -1,0 +1,7 @@
+header{
+  background:#000 url(../../images/header-bg.png) no-repeat 50% 24px;
+  border-bottom:10px solid #fff200;
+}
+.wrap-header{
+  min-height:164px;
+}

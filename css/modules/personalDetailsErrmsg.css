@@ -1,0 +1,23 @@
+.generic-error-msg {
+	position: relative;
+	margin: 0 0 10px 0;
+	border: 1px solid #e8202a;
+	padding: 18px 0 10px 19px;
+}
+
+.generic-error-msg ul {
+	margin-top: 10px;
+}
+
+.generic-error-msg li {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-bottom: 5px;
+}
+
+.generic-error-msg li a {
+	color: #e8202a;
+}
+.generic-error-msg h2{
+	 font-size: 100%;
+}

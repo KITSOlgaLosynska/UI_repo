@@ -1,0 +1,10 @@
+.comm-idea-details {
+  background: #eee;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.comm-idea-details h2,
+.comm-idea-details ul {
+  padding: 0 20px;
+}

@@ -1,0 +1,13 @@
+.home {
+	float: left;
+	margin: 5px 0 0 0;
+	font-size: .8em;
+}
+
+.next {
+    float: right;
+    margin: 0;
+}
+.next input[type="submit"]{
+	   cursor:pointer;
+}

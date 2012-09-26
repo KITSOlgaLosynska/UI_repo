@@ -1,0 +1,17 @@
+.customer-box{
+	margin-top:10px;
+	font-size:1.1em;
+	min-height:160px;
+	background:#eeeeee;
+}
+.customer-box h2{
+	font-weight:bold;
+	margin-bottom:15px;
+	padding:10px;
+}
+.customer-box .data{
+	padding:10px;
+}
+.customer-box .data span{
+	display:block;
+}

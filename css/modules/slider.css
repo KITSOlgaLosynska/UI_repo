@@ -1,0 +1,12 @@
+div.slider-window {
+	overflow: hidden;
+}
+
+div.slider-pane,div.slider-pane li {
+	float: left;
+	position: relative;
+}
+
+div.disabler {
+	z-index: 1;
+}

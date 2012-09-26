@@ -1,0 +1,23 @@
+.payment-card-box{
+	margin-top:20px;
+	font-size:1.1em;
+	min-height:160px;
+	background:#eeeeee;
+}
+.payment-card-box h2{
+	font-weight:bold;
+	margin-bottom:15px;
+	padding:10px;
+}
+.payment-card-box .card{
+	padding:10px;
+}
+.payment-card-box .card span{
+	display:block;
+}
+.payment-card-box .card .dummy{
+	padding-top:8px;
+	font-weight:bold;
+	color:#ffffff;
+	font-size:1.1em;
+}

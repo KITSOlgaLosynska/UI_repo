@@ -1,0 +1,61 @@
+/*------------------------- CSS Class Product List - START  -------------------------*/
+.product-list{
+  border-bottom: 1px solid #ccc;
+  float: left;
+  min-height: 135px;
+  margin: 0 0 15px 0;
+  padding-bottom: 15px;  
+  position: relative;
+}
+
+.product-list .hero{  
+  background: #ccc;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+}
+
+.product-list .title,
+.product-list .description,
+.product-list .code,
+.product-list .availability {
+  display: block;
+  margin-left: 138px;  
+}
+
+.product-list .availability .sprite-norep {
+  display: inline-block;
+}
+
+.product-list .availability.in-stock {
+  color: #0f0;
+}
+
+.product-list .availability.out-of-stock {
+  color: #f00;
+}
+
+.product-list .availability strong {
+  color: #000;
+  margin-right: 10px;
+}
+
+.product-list .description{
+  margin-bottom: 20px;
+}
+
+.product-list .wrap-price{
+  margin: 0;
+  text-align: right;  
+}
+
+.product-list .price{
+  font-size: 120%;
+  min-height: 6em;  
+}
+
+.product-list .call-to-action{
+  margin: 0 0 0 50px;
+  text-align: left;
+}
+/*------------------------- CSS Class Product List - END  -------------------------*/

@@ -1,0 +1,13 @@
+	form div.fieldset {
+		background-color: #F5F5F5;
+		padding: 20px 0 21px 19px;
+		position: relative;
+	}
+	
+	form .label {
+		margin: 0 10px 0 0;
+	}
+	
+	form div.input-readonly div.field {
+		line-height: 33px;
+	}

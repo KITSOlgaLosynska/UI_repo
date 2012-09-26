@@ -1,0 +1,177 @@
+.order-summary h2{
+	color:#2d2d2d;
+	font:1.562em/0.78em Helvetica, Arial, sans-serif;
+	margin:0 0 14px;
+}
+.order-summary .title{
+	background:#e6e6e6;
+	border:solid #ccc;
+	border-width:1px 1px 0 1px;
+	overflow:hidden;
+	padding:10px 4px 5px 9px;
+}
+.order-summary .title a{
+	background:#f8f9f9;
+	background:-webkit-gradient(linear, left top, left bottom, from(#f8f9f9), to(#dcdddd));
+	background:-moz-linear-gradient(top,  #f8f9f9,  #dcdddd);
+	border:1px solid #adaeae;
+	border-radius:5px;
+	color:#292929;
+	float:right;
+	font:0.846em/16px Arial, Helvetica, sans-serif;
+	margin:-7px 0 0;
+	overflow:hidden;
+	padding:4px 27px 4px 8px;
+	position:relative;
+}
+.lt-ie9 .order-summary .title a,
+.no-cssgradients .order-summary .title a{
+	background:url(../../images/buttons-for-ie.png) no-repeat;
+	border:0;
+	height:18px;
+	padding-right:17px;
+	width:125px;
+}
+.order-summary .title a:after,
+.order-summary .title a .after{
+	background:url(../../images/norep.png) no-repeat -50px -550px;
+	content:"";
+	display:block;
+	height:9px;
+	left:auto;
+	position:absolute;
+	right:5px;
+	top:9px;
+	width:13px;
+}
+.show-box .title a:after,
+.show-box .title a .after{
+	background:url(../../images/norep.png) no-repeat -100px -550px;
+}
+.order-summary .title h3{
+	float:left;
+	font-size:0.911em;
+	line-height:1em;
+	margin:0;
+}
+.expandable-box{
+	overflow:hidden;
+	width:100%;
+	position:relative;
+}
+.js .expandable-box{display:none;}
+.expandable-box table{
+	border:solid #ccc;
+	border-width:0 1px 1px 1px;
+	margin:0 0 10px !important;
+	width:100%;
+}
+.expandable-box .wrap{
+	background:#808080;
+	background:-webkit-gradient(linear, left top, left bottom, from(#808080), to(#8b8b8b));
+	background:-moz-linear-gradient(top,  #808080,  #8b8b8b);
+	color:#fff;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#808080', endColorstr='#8b8b8b');
+}
+.expandable-box .wrap .icon{
+	background:#ffe400;
+	background:-webkit-gradient(linear, left top, left bottom, from(#ffe400), to(#F7C428));
+	background:-moz-linear-gradient(top,  #ffe400,  #f7c428);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe400', endColorstr='#f7c428');
+	float:left;
+	height:40px;
+	margin-right:7px;
+	overflow:hidden;
+	position:relative;
+	width:47px;
+}
+.expandable-box .wrap .icon:after,
+.expandable-box .wrap  .icon .after{
+	background:url(../../images/norep.png) no-repeat -142px -86px;
+	content:"";
+	height:100%;
+	position:absolute;
+	width:100%;
+}
+.expandable-box h3{
+	font:1.171em/2.15em Helvetica, Arial, sans-serif;
+	margin:0;
+}
+.expandable-box th{color:#2d2d2d;}
+.expandable-box .product{
+	padding-left:9px;
+	width:173px;
+}
+.expandable-box .qty{
+	text-align:center;
+}
+.expandable-box .price{
+	padding-right:10px;
+	text-align:right;
+}
+.expandable-box th strong{
+	border-bottom:1px solid #ccc;
+	display:block;
+	font:bold 0.781em/1.167 Arial, Helvetica, sans-serif;
+	padding:10px 0 8px;
+}
+.expandable-box td.product,
+.expandable-box td.qty,
+.expandable-box td.price{
+	color:#333;
+	font:0.781em/1.5em Arial, Helvetica, sans-serif;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.side-box .total{
+	border-bottom:1px solid #ccc;
+	display:block;
+	padding:12px 0 13px;
+}
+.side-box  table{
+	margin:0 !important;
+	width:100%;
+}
+.side-box  td,
+.side-box  th{
+	padding:0 0 8px;
+}
+.side-box .total-row td,
+.side-box .total-row th{padding-bottom:14px;}
+.side-box  th.first{
+	font-size:0.846em;
+	padding-left:9px;
+}
+.side-box  td.price{
+	font-size:0.911em;
+	line-height:1em;
+	padding-right:9px;
+	text-align:right;
+}
+.side-box  th .misc{
+	font-size:0.923em;
+}
+.side-box  .block td,
+.side-box  .block th{
+	background:#eee;
+	font-size:1.041em;
+	line-height:1em;
+	padding:10px 8px 8px 9px;
+}
+.side-box  .block th .misc{font-size:0.812em;}
+.side-box{
+	border:1px solid #ccc;
+	margin-bottom:20px;
+}
+.side-box h3{
+	background:#eee;
+	font-size:0.911em;
+	line-height:1em;
+	margin:0;
+	padding:10px 9px;
+}
+.side-box address{
+	font:0.846em/1.384em Arial, Helvetica, sans-serif;
+	letter-spacing:0.45px;
+	padding:7px 10px 10px;
+}

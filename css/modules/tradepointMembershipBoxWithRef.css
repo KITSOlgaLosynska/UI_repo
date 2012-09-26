@@ -1,0 +1,16 @@
+.tradepoint-membership-no{
+	margin-top:10px;
+	font-size:1.1em;
+	min-height:160px;
+	background:#eeeeee;
+}
+.tradepoint-membership-no h2{
+	padding:5px;
+	font-weight:bold;
+	margin-bottom:0;
+}
+.tradepoint-membership-no .number,
+.tradepoint-membership-no .reference{
+	padding:10px;
+	display:block;
+}

@@ -1,0 +1,61 @@
+.trade-association p{
+  margin:0 10px 0 0;
+}
+
+.trade-association .popup-triggerer {
+  line-height: 25px;
+  float:left;
+}
+
+.trade-association .popup-triggerer:focus {
+  outline: 1px dotted #aeaeae;
+}
+
+.lt-ie8 .trade-association .popup-triggerer span {
+  cursor:pointer;
+}
+
+.trade-association .popup-triggerer .icon-add-circ {
+  background-position:-100px 0;
+  margin:3px 5px 5px 0;
+}
+
+.trade-association .popup-triggerer .text {
+  float:left;
+}
+
+.trade-association .popup-triggerer .icon-open-win {
+  background-position: -150px 0;
+  margin:7px;
+}
+
+.trade-association ul.trade-associations-list {
+  margin: 15px 0;
+  list-style: inside square;
+}
+
+.trade-association ul.trade-associations-list li {
+  margin-bottom:10px;
+}
+
+.trade-association ul.trade-associations-list li span {
+  display:block;
+  font-style:italic;
+  margin-left:18px;
+}
+
+.trade-association ul.trade-associations-list li span span.value {
+  display:inline;
+  margin:0;
+}
+
+/* Tradeassoc specific but popup related css*/
+.tradeassoc-accordion-wrap span.title {
+  display: block;
+  margin: 15px 0 0 15px;
+}
+
+.personal-details-tradeassoc-submit {
+  float:right;
+  margin: 0 25px 15px 0;
+}

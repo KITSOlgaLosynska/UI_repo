@@ -1,0 +1,38 @@
+.product-variations {
+  margin-bottom: 10px;
+}
+
+.product-variations p {
+  font-size: 0.85em;
+  text-align: right;
+  margin-bottom: 9px;
+}
+
+.product-variations .input {
+  text-align: right;
+}
+
+.js .product-variations div.input-select div.select,
+.js .product-variations div.input-text input {
+  float: right;
+}
+
+.js .product-variations div.input-select div.select span.shim {
+  width: 50px;
+}
+
+.product-variations div.select span.text {
+  float: left;
+}
+
+.product-variations div.input-text label,
+.product-variations div.input-select label,
+.product-variations div.input-textarea label,
+.product-variations div.input-readonly div.label {
+  width: 85px;
+}
+
+.product-variations div.qty input {
+  width: 26px;
+  text-align: center;
+}

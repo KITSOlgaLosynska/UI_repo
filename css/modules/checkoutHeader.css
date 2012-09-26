@@ -1,0 +1,48 @@
+.wrap-header a,
+.wrap-header{
+	color:#fff;
+}
+.checkoutHeader{
+	font-size:0.81em;
+}
+.tradepoint-logo{
+	float:left;
+	left:-5px;
+	position:relative;
+	top:-15px;
+}
+.mini-menu{
+	background:#000;
+}
+.mini-menu ul{
+	float:right;
+}
+.mini-menu li{
+	float:left;
+	line-height:24px;
+}
+.mini-menu li a, .mini-menu li strong{
+	border-right:1px solid white;
+	font:0.964em/1.167em Arial, Helvetica, sans-serif;
+	margin-right:14px;
+	padding-right:14px;
+}
+.mini-menu li strong{font-weight:bold;}
+.mini-menu li.last a{
+	border:0;
+	margin-right:0;
+	padding-right:0;
+}
+.phone-info-2{
+	color:white;
+	float:right;
+	margin-top:29px;
+}
+.phone-info-2 span{
+	display:block;
+	font:bold 1.125em/1.214em Arial, Helvetica, sans-serif;
+}
+.phone-info-2 span.number{
+	font-size:1.928em;
+	line-height:1.208em;
+}

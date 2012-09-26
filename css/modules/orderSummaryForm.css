@@ -1,0 +1,94 @@
+.checkout-order-summary .section-box label{
+	display:block;
+	font:bold 0.911em/1.071em Arial, Helvetica, sans-serif;
+	margin-bottom:12px;
+}
+.checkout-order-summary div.input-text{
+	padding:0 0 0 6px;
+	margin:0 0 10px;
+}
+.checkout-order-summary div.input-text .input.text{
+	background:url(../../images/xrep.png) repeat-x 0 -570px;
+	border:0;
+	float:left;
+	height:28px;
+	margin:0;
+	padding:1px 0;
+	position:relative;
+	width:229px;
+}
+.checkout-order-summary div.input-text .input.text:before,
+.checkout-order-summary div.input-text .input.text:after,
+.lt-ie8 .checkout-order-summary  div.input-text .input.text .before,
+.lt-ie8 .checkout-order-summary div.input-text .input.text .after {
+	border:solid #a7a9ac;
+	content:"";
+	height:28px;
+	position:absolute;
+	top:0;
+	width:5px;
+}
+.checkout-order-summary div.input-text .input.text:before,
+.lt-ie8 .checkout-order-summary div.input-text .input.text .before {
+	background:url(../../images/norep.png) no-repeat -250px -550px;
+	border-width:1px 1px 1px 0;
+	right:-6px;
+}
+.checkout-order-summary div.input-text .input.text:after,
+.lt-ie8 .checkout-order-summary div.input-text .input.text .after {
+	background:url(../../images/norep.png) no-repeat -300px -550px;
+	border-width:1px 0 1px 1px;
+	left:-6px;
+}
+.checkout-order-summary div.input-text .input.text input{
+	background:none;
+	border:0;
+	color:#2d2d2d;
+	float:left;
+	font-size:0.875em;
+	height:16px;
+	line-height:1.143em;
+	margin:0;
+	outline:none;
+	padding:6px 0;
+	width:229px;
+}
+.checkout-order-summary div.input-text .input.text input::-webkit-input-placeholder,
+.checkout-order-summary div.input-text .input.text input:-moz-placeholder{color:#999;}
+.checkout-order-summary .input.checkbox{
+	background: url(../../images/norep.png) -450px 0 no-repeat;
+	float: left;
+    height: 20px;
+	margin:0;
+	width: 20px;
+}
+.checkout-order-summary .input.checkbox:hover,
+.checkout-order-summary .input.checkbox.focus{background-position:-50px -50px;}
+.checkout-order-summary .input.checkbox.checked{background-position:0 -50px;}
+.checkout-order-summary .input.checkbox.checked:hover,
+.checkout-order-summary .input.checkbox.checked.focus{background-position:-100px -50px;}
+.checkout-order-summary .input.checkbox input{
+	float:left;
+	height: 16px;
+	margin:0;
+	padding:0;
+	width:16px;
+}
+.js .checkout-order-summary .input.checkbox input{opacity:0;}
+.lt-ie8 .checkout-order-summary .input.checkbox input[type=checkbox]{filter: alpha(opacity=0);}
+.lt-ie9 .checkout-order-summary .input.checkbox input[type=checkbox]{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";}
+.checkout-order-summary .input-checkbox-accept{
+	margin:0 0 15px;
+	width:100%;
+}
+.checkout-order-summary .input-checkbox-accept .input.checkbox{margin-right:2px;}
+.checkout-order-summary .input-checkbox-accept label{
+	float:left;
+	color:#2d2d2d;
+	font:0.846em/1.154em Arial, Helvetica, sans-serif;
+}
+div.input-text .input.text.invalid:after,
+.lt-ie8 div.input-text .input.text.invalid .after{background:#f00;}
+div.input-text .input.text.invalid:before,
+.lt-ie8 div.input-text .input.text.invalid .before{background-position:-350px -550px;}
+div.input-text .input.text.invalid{background-position:0 -610px;}

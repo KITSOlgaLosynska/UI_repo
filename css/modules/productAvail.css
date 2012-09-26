@@ -1,0 +1,30 @@
+.product-avail {
+  background: #f1f2f2;
+  margin-bottom: 10px;
+}
+
+.product-avail h2 {
+  background: #d9dbdc;
+  line-height: 2.1em;
+  padding-left: 10px;
+}
+
+.product-avail ul li {
+  background-image: url(../../images/icon-sprite.png);
+  background-repeat: no-repeat;
+  font-size: 0.88em;
+  padding: 0 0 10px 33px;
+  width: auto;
+}
+
+.product-avail ul {
+  margin-top: 10px;
+}
+
+.product-avail ul li.unavailable-icon {
+  background-position: -2px -275px;
+}
+
+.product-avail ul li.available-icon {
+  background-position: -2px -313px
+}

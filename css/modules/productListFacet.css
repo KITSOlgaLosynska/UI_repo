@@ -1,0 +1,17 @@
+.facet {
+ background-color:#ccc;
+  min-height:20em;
+}
+
+.facet h3{
+  clear:both;
+  margin:0 0 .5em 0;  
+}
+
+.facet ul{
+  margin:0 0 1em 0;
+}
+
+.facet ul li{
+  margin:0 0 .2em 0;
+}

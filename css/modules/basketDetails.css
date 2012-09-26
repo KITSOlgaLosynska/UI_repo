@@ -1,0 +1,76 @@
+.basket-details form .checkout{
+  float: right;
+    margin: 10px 0 10px 10px;
+}
+.basket-details table {
+  border: 1px solid #ccc;
+  width:100%;
+  padding:0;
+  clear:both;
+}
+
+.basket-details th {
+  background-color:#999;
+  font-weight:bold;
+}
+
+.basket-details th,
+.basket-details td{
+  padding:.5em 0;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.basket-details td input[type="text"] {
+  border: 1px solid #ccc;
+  clear: both;
+  margin: 0 0 .5em 0;
+  padding: 3px;
+  text-align: center;
+  width: 50px;
+}
+
+.basket-details td input.remove {
+  background-image: url(../../images/icon-sprite-grid.png);
+  background-position: -300px 0;
+  border: 0;
+  cursor: pointer;
+  height: 15px;
+  text-indent: -200px;
+  width: 12px;
+}
+
+.basket-details th.price,
+.basket-details td.price{
+  text-align: right;
+  padding-right: .5em;
+}
+
+.basket-details th.quantity,
+.basket-details td.quantity,
+.basket-details th.remove,
+.basket-details td.remove{
+  text-align: center;
+  width: 80px;
+}
+
+.basket-details .basket-total-item th,
+.basket-details .basket-total-price th,
+.basket-details .basket-total-price-vat th,
+.basket-details .basket-total-vat th,
+.basket-details .basket-delivery-vat th {
+  background-color: #fff;
+  text-align: right;
+  padding: 0 1em 0 0;
+}
+
+.basket-details .basket-total-item td {
+  text-align: center;
+}
+.basket-details .basket-total-price td,
+.basket-details .basket-total-price-vat td,
+.basket-details .basket-total-vat td, 
+.basket-details .basket-delivery-vat td {
+  text-align:right;
+  padding-right:5px;
+}

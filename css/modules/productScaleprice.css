@@ -1,0 +1,21 @@
+.product-scaleprice {
+  margin-bottom: 10px;
+}
+
+.product-scaleprice tr.head {
+  background: #f1f2f2;
+}
+
+.product-scaleprice td,
+.product-scaleprice th {
+  padding: 9px;
+  border: 1px solid #bebebe;
+  border-top: 0;
+  font-size: 0.88em;
+}
+
+.product-scaleprice tr.head td,
+.product-scaleprice tr.head th {
+  border-top: 1px solid #bebebe;
+  border-bottom: 0;
+}

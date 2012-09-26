@@ -1,0 +1,175 @@
+form div.fieldset,
+form fieldset {
+  padding: 35px 0 20px 20px;
+  position: relative;
+  margin: 0 0 10px;
+}
+
+form legend span {
+  font-size: 1.5em;
+  position: absolute;
+  top: 10px;
+}
+
+form div.input {
+  margin: 0 0 .4em 0;
+  clear: left;
+}
+
+.lt-ie8 form div.input {
+  position: relative;
+}
+
+form div.input-text label,
+form div.input-select label,
+form div.input-textarea label,
+form .label {
+  float: left;
+  width: auto;
+  margin: 8px 10px 0 0;
+  text-align: right;
+}
+
+form div.input-text input {
+  background-position: -3596px 0;
+  height: 28px;
+  padding: 0 8px;
+}
+
+form div.input-text input,
+form div.input-textarea textarea,
+form div.fieldset,
+form fieldset {
+  border: 1px solid #A7A9AC;
+}
+
+.js form div.input-text.error input {
+  background: #f00;
+}
+
+form fieldset a {
+  text-decoration: underline;
+}
+
+form .req {
+  color: #f00;
+}
+
+/*Fancy Form Elements - START*/
+/*.div.input-checkbox {
+  position: relative;
+}
+
+.js div.input-radio label {
+  height: 20px;
+}
+
+.js div.input-checkbox label,
+div.input-radio label {
+  float: none;
+  display: inline-block;
+}
+
+.js div.input-checkbox input,
+.js div.input-radio input {
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity = 0);
+  position: absolute;
+}
+
+.js div.input-checkbox label {
+  padding-left: 30px;
+  background: transparent url(../../images/vertical-sprite.png) -9px -1079px no-repeat;
+  line-height: 130%;
+}
+
+.js div.input-checkbox.checked label {
+  background-position: -9px -1119px;
+}
+
+.js div.input-checkbox.checked label span {
+  color: #E8202A;
+}
+
+.js div.input-checkbox.focus label {
+  background-position: -9px -1159px;
+}
+
+.js div.input-checkbox.checked.focus label {
+  background-position: -9px -1199px;
+}
+
+.js div.input-radio label {
+  padding-left: 28px;
+  background: transparent url(../../images/vertical-sprite.png) -10px -915px no-repeat;
+}
+
+.js div.input-radio.checked label {
+  background-position: -10px -955px;
+}
+
+.js div.input-radio.focus label {
+  background-position: -10px -996px;
+}
+
+.js div.input-radio.checked.focus label {
+  background-position: -10px -1036px;
+}
+
+div.input-select select {
+  height: 28px;
+  padding: 5px;
+  border: 1px solid #a7a9ac;
+}
+
+.js div.input-select select {
+  width: 100%;
+}
+
+.js div.input-select select {
+  opacity: 0;
+  filter: alpha(opacity = 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.js div.input-select select option {
+  font-size: 1.2em;
+  padding: 0.25em 10px;
+}
+
+.js div.input-select div.select {
+  background: transparent url(../../images/horizontal-sprite.png) -5340px 0 no-repeat;
+  border: 1px solid #a7a9ac;
+  cursor: default;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  padding: 0 0 0 9px;
+  position: relative;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.js div.input-select div.select span.shim {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45px;
+  height: 28px;
+  background: transparent url(../../images/vertical-sprite.png) 0 -3px no-repeat;
+}
+
+.js div.input-select.focus div.select {
+  background-position: -5340px -48px;
+}
+
+.js div.input-select.focus div.select span.shim {
+  background-position: 0 -51px;
+}
+*/
+/*Fancy Form Elements - END*/
